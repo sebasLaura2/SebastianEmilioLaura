@@ -1,0 +1,35 @@
+.contenido{
+    padding: 5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "header      header"
+                         "nav         nav"
+                         "contenido   ads"
+                         "foter        foter";
+}
+.contenedor .header
+{
+    background-color: azure;
+    grid-area: header;
+}
+.contenedor .nav
+{
+    background-color: azure;
+    grid-area: nav;
+}
+.contenedor .contenido
+{
+    background-color: azure;
+    grid-area: contenido;
+}
+.contenedor .ads
+{
+    background-color: azure;
+    grid-area: ads;
+}
+.contenedor .footer
+{
+    background-color: azure;
+    grid-area: footer;
+}
